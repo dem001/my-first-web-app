@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- 独自のCSSファイルを読み込み -->
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <!-- Hello My Page は消して、この div 要素だけにするのじゃ -->
+    <div class="dashboard-container">
+      <!-- ここに左右のコンテンツが入る -->
+      <!-- 左サイドバー (固定) -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <a href="#" class="sidebar-home" data-tab="home">
+            <span class="ri-home-line"></span>
+            <span>Home</span>
+          </a>
+        </div>
+      </aside>
+
+      <!-- 右メインコンテンツ (スクロール可) -->
+      <main class="main-content">
+        <!-- ホームセクション -->
+        <section class="content-section" id="home">
+          <header class="section-header">
+            <div class="profile-circle">
+              <span class="ri-user-smile-line"></span>
+            </div>
+            <h1 class="section-title">ようこそ<span>Personal Dashboard</span>へ</h1>
+            <p class="section-subtitle">
+              毎日をもっと便利に、もっと楽しく
+            </p>
+          </header>
+          <div class="section-body">
+            <div class="section-description">
+              <p>
+                このダッシュボードは、あなたの日常を豊かにするためのツールです。日記の記録、メモの管理、天気情報の確認など、欠かせない機能を手軽に使えます。
+              </p>
+              <p>
+                小さな日々の記録は、やがてかけがえのない思い出になり、効率的なタスク管理は、充実した毎日へとつながります。あなたの毎日を支えるパートナーとして、ぜひ活用してください。
+              </p>
+            </div>
+         </div>
+       </section>
+       <!-- End ホームセクション -->
+      </main>
+    </div>
+
